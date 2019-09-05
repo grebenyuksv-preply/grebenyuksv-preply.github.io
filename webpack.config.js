@@ -36,7 +36,7 @@ module.exports = {
 	output: {
 		filename: '[name].js',
 		chunkFilename: '[name].[chunkhash].js',
-		path: path.resolve(__dirname, 'dist')
+		path: path.resolve(__dirname)
 	},
 
 	plugins: [new webpack.ProgressPlugin(), new HtmlWebpackPlugin()],
